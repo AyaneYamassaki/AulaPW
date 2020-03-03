@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+body {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.2em;
+}
+
+.text-title {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 3em;
+    color: #ffffff;
+}
+
+.text-subtitle {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+.bg-title {
+    background-image: linear-gradient(to bottom right, #be2edd, #ff9ff3);
+}
