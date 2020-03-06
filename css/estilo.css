@@ -18,5 +18,7 @@ body {
 }
 
 .bg-title {
-    background-image: linear-gradient(to bottom right, #be2edd, #ff9ff3);
+    /* background-image: linear-gradient(to bottom right, #be2edd, #ff9ff3);*/
+    background: url('../img/japan.jpg') center center no-repeat;
+    background-size: cover;
 }
