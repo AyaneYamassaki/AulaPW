@@ -5,6 +5,10 @@ body {
     font-size: 1.2em;
 }
 
+.bg-nav {
+    background-image: linear-gradient()
+}
+
 .text-title {
     font-family: 'Fredericka the Great', cursive;
     font-size: 3em;
@@ -21,4 +25,8 @@ body {
     /* background-image: linear-gradient(to bottom right, #be2edd, #ff9ff3);*/
     background: url('../img/japan.jpg') center center no-repeat;
     background-size: cover;
+}
+
+.bg-footer {
+    background: #C2D2F2;
 }
