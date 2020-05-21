@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 body {
     font-family: 'Amatic SC', cursive;
     font-size: 1.2em;
 }
 
 .bg-nav {
-    background-image: linear-gradient()
+    margin-top: -3rem;
+    background-image: linear-gradient(#D4E6F1, #ffffff)
 }
 
 .text-title {
     font-family: 'Fredericka the Great', cursive;
-    font-size: 3em;
     color: #ffffff;
 }
 
@@ -27,6 +28,14 @@ body {
     background-size: cover;
 }
 
+.bg-mobile {
+    background-image: linear-gradient(to bottom right, #efa9d9, #D4E6F1);
+}
+
 .bg-footer {
-    background: #C2D2F2;
+    background: #d8ecee;
+    font-family: 'Permanent Marker', cursive;
+    -webkit-text-stroke-color: #636262;
+    -webkit-text-stroke-width: 0.5px;
+    color: #f2f0f0;
 }

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/estilo.css">
@@ -15,8 +15,18 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-nav fixed-top">
-        <a class="navbar-brand" href="">Japan</a>
+    <!--Computer-->
+    <div class="jumbotron jumbotron-fluid bg-title d-none d-sm-block">
+        <h1 class="display-4 mt-4 mb-0 text-center text-white text-title">KarenAyane</h1>
+        <p class="text-subtitle lead text-center text-white"><i class="mdi mdi-chess-queen"></i>Curso de Desenvolvimento de Sistemas</p>
+    </div>
+    <!--Mobile-->
+    <div class="jumbotron jumbotron-fluid bg-mobile d-block d-sm-none">
+        <h1 class="display-4 mt-3 mb-0 text-center text-white text-title">KarenAyane</h1>
+        <p class="text-subtitle lead text-center text-white"><i class="mdi mdi-chess-queen"></i>Curso de Desenvolvimento de Sistemas</p>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-nav">
+        <a class="navbar-brand" href=""><img src="img/japan.png" alt="Japão" height="40"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#my-nav" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,8 +38,15 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Quem Somos</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Cursos</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Cursos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Progamador WEB</a>
+                        <a class="dropdown-item" href="#"></a>
+                        <a class="dropdown-item" href="#"></a>
+                    </div>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Fale Conosco</a>
@@ -37,26 +54,21 @@
             </ul>
         </div>
     </nav>
-
-    <div class="jumbotron jumbotron-fluid bg-title">
-        <h1 class="display-4 mt-5 mb-0 text-center text-white text-title">KarenAyane</h1>
-        <p class="text-subtitle lead text-center text-white"><i class="mdi mdi-chess-queen"></i>Curso de Desenvolvimento de Sistemas</p>
-    </div>
     <div class="container-fluid bg-footer">
         <div class="row">
             <div class="offset-md-2 col-md-3 col-12">
-                <p class="text-white">Todos os direitos reservados.<br>karenayane\oo/</p>
+                <p class="">Todos os direitos reservados.<br>karenayane\oo/</p>
             </div>
-            <div class="col-md-3 col-12 text-white">
+            <div class="col-md-3 col-12">
                 <p class="mb-0">Mapa do Site</p>
                 <ul>
-                    <li>Home</li>
-                    <li>Quem Somos</li>
-                    <li>Cursos</li>
-                    <li>Fale Conosco</li>
+                    <li type="circle">Home</li>
+                    <li type="circle">Quem Somos</li>
+                    <li type="circle">Cursos</li>
+                    <li type="circle">Fale Conosco</li>
                 </ul>
             </div>
-            <div class="col-md-3 col-12 text-white">
+            <div class="col-md-3 col-12">
                 <i class="mdi mdi-facebook mdi-24px">/karenayane</i><br>
                 <i class="mdi mdi-instagram mdi-24px">/KarenAyane</i><br>
                 <i class="mdi mdi-whatsapp mdi-24px">(14)98877-6655</i><br>
